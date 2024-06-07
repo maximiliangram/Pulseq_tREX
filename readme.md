@@ -1,18 +1,17 @@
 # Towards robust in vivo quantification of oscillating biomagnetic fields using Rotary Excitation based MRI
-M. Gram1,2,*, P. Albertova1,2, V. Schirmer1, M. Blaimer3, M. Gamer4, M.J. Herrmann5, P. Nordbeck2, P.M. Jakob1  
+M. Gram1,2, P. Albertova1,2, V. Schirmer1, M. Blaimer3, M. Gamer4, M.J. Herrmann5, P. Nordbeck2, P.M. Jakob1  
 1 Experimental Physics 5, University of Würzburg, Würzburg, Germany  
 2 Department of Internal Medicine I, University Hospital Würzburg, Würzburg, Germany  
 3 Fraunhofer Institute for Integrated Circuits IIS, Würzburg, Germany  
 4 Department of Psychology, University of Würzburg, Würzburg, Germany  
 5 Department of Psychiatry, Psychosomatics, and Psychotherapy, Center for Mental Health, University Hospital of Würzburg, Würzburg, Germany  
-* corresponding author
 
 # Address for correspondence:
-Maximilian Gram, University of Würzburg,
-Experimental Physics 5,
-Am Hubland, Würzburg,
-DE D-97074,
-maximilian.gram@uni-wuerzburg.de,
+Maximilian Gram, University of Würzburg,  
+Experimental Physics 5,  
+Am Hubland, Würzburg,  
+DE D-97074,  
+maximilian.gram@uni-wuerzburg.de,  
 https://orcid.org/0000-0003-2184-3325
 
 # Introduction
