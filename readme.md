@@ -24,6 +24,7 @@ The measurements were carried out on the following MRI system:
 # Sequence parameters
 ## external1.seq
 This file contains the spiral readout and can be used for S0 reference imaging. The sequence performs 3 dummy runs and 5 averages with identical readouts. The scans are seperated with Trec=1s from each other. A fat saturation was implemented. The readout uses 4 interleaved spirals with ramped flip angle aquisitions (flip angles: 30°, 35°, 45°, 90°). The FOV is fixed to 240x240mm and the matrix is 96x96. Slice thickness is 5mm and the slice offset is 10mm. The acquisition time is 11ms and n=2000 samples are acquired in each interleave. The rawdata will be 5x4=20 blocks with each 2000 sampling points. The k-space trajectory for image reconstruction was saved in the ktraj.mat file in this folder (units 1/m).
+
 ## external2.seq
 This file contains one REX detection experiment based on the spiral readout as described above. The sequence uses balanced-spin-locking with tSL=80ms and fSL=50Hz (maximum condition explained in the paper). The tREX stimulus is performed with fstim=50Hz (resonance condition) and Bstim=50nT in the 10mm offcenter slice. The sequence performs 20 repetitions with linear varying relative phases in the range 0...2pi.
 
@@ -38,11 +39,10 @@ C-SL  tSL=80.0ms (max)
 C-SL  tSL=70.0ms (min)
 B-SL  tSL=80.0ms (max)
 B-SL  tSL=60.0ms (min)
-
-# Update
-Check our new repository for "Rotary Excitation of non-sinusoidal pulsed magnetic fields: Towards non-invasive direct detection of cardiac conduction" on https://github.com/petraalbertova/qrs_rex
-
 fSL=50Hz, fstim=50Hz, Bstim=50nT @10mm offset, 20 phases
 
 ## external4.seq
 This sequence runs 14 REX detections (each with 20phases, BSL, tSL=80ms, fSL=50Hz, fstim=50Hz) with different stimulus field strength Bstim = 1, 2.5, 5, 7.5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100nT.
+
+# Update
+Check our new repository for "Rotary Excitation of non-sinusoidal pulsed magnetic fields: Towards non-invasive direct detection of cardiac conduction" on https://github.com/petraalbertova/qrs_rex
