@@ -38,6 +38,10 @@ C-SL  tSL=80.0ms (max)
 C-SL  tSL=70.0ms (min)
 B-SL  tSL=80.0ms (max)
 B-SL  tSL=60.0ms (min)
+
+# Update
+Check our new repository for "Rotary Excitation of non-sinusoidal pulsed magnetic fields: Towards non-invasive direct detection of cardiac conduction" on https://github.com/petraalbertova/qrs_rex
+
 fSL=50Hz, fstim=50Hz, Bstim=50nT @10mm offset, 20 phases
 
 ## external4.seq
